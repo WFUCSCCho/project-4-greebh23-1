@@ -82,7 +82,7 @@ it to this repository.
 
 Insertion, search, and deletion running time (already sorted):
 ![image](https://github.com/user-attachments/assets/bc1fe0bf-6ac6-4b37-8d96-349546c4618d)
-The runtime for insertion is O(N) and the runtime for search and remove is O(log(N)). Insert time has the largest runtime and search 
+The runtime for insertion is O(N) and the runtime for search and remove is also O(N). Insert time has the largest runtime and search 
 has the smallest runtime. There are some fluctuations in the graph due to the small amount of data. 
 
 Insertion, search, and deletion running time (shuffled):
@@ -105,7 +105,7 @@ Dataset Source: https://www.kaggle.com/datasets/mrsimple07/remote-work-productiv
 Dataset Modifications ("None" if unchanged): None
 
 Result Analysis: Overall, the runtimes for already sorted, suffled and reversed were very similar for the inser, search, and remove operations.
-In one graph insertion had had the largest time O(log(N)) and the others were O(N) but in the other two graphs all of the runtiems were about the same.
+In one graph insertion had had the largest time but in the other two graphs all of the retimes and lines were about the same.
 In the reversed and shuffled graphs insert, search, and remove all had runtiems of O(N). The graphs should have had an O(1) runtime but my graphs showed fluctuations
 and there ould have been a computer error so they are not completly correct. My n is not very large so I might have seen an O(1) runtime with a larger n. 
  
