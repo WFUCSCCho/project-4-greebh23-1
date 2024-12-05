@@ -104,7 +104,11 @@ Dataset Source: https://www.kaggle.com/datasets/mrsimple07/remote-work-productiv
 
 Dataset Modifications ("None" if unchanged): None
 
-Result Analysis: // FINISH ME
+Result Analysis: Overall, the runtimes for already sorted, suffled and reversed were very similar for the inser, search, and remove operations.
+In one graph insertion had had the largest time O(log(N)) and the others were O(N) but in the other two graphs all of the runtiems were about the same.
+In the reversed and shuffled graphs insert, search, and remove all had runtiems of O(N). The graphs should have had an O(1) runtime but my graphs showed fluctuations
+and there ould have been a computer error so they are not completly correct. My n is not very large so I might have seen an O(1) runtime with a larger n. 
+ 
 
 ## Submission:
 
