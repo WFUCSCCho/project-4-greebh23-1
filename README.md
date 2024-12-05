@@ -81,23 +81,34 @@ each case. Take a screenshot of your graph and put them here by modifying this f
 it to this repository.
 
 Insertion, search, and deletion running time (already sorted):
-
-![Firefly picture of a cat 86147](https://github.com/user-attachments/assets/8b2d008e-3011-4979-97b8-fa2e9886a01a)
-
+![image](https://github.com/user-attachments/assets/bc1fe0bf-6ac6-4b37-8d96-349546c4618d)
+The runtime for insertion is O(N) and the runtime for search and remove is also O(N). Insert has the largest runtime and search 
+has the smallest runtime. There are some fluctuations in the graph due to the small amount of data. 
 
 Insertion, search, and deletion running time (shuffled):
+![image](https://github.com/user-attachments/assets/9f9e8d8e-d247-41c3-b5f9-7579a5db0256)
+The runtime for insert, search, and remove are about O(N). Search has the largest runtime 
+but they are all pretty similar. There are some fluctuations since there is a small amount of data. 
 
 Insertion, search, and deletion running time (reversed):
+![image](https://github.com/user-attachments/assets/a319dffa-a751-4ae3-921b-e634a9f4bfd6)
+The runtime for insert, search, and remove is O(N). There are some fluctuations since n is small.
+All of their runtimes look very similar on the graph though.  
+
 
 ## 5. **Document your Dataset and Results**
 Document the source of your dataset and any modifications you made to it. Describe the results of your analysis and 
 how it compares to the theoretical performance of the hash table operations.
 
-Dataset Source: // FINISH ME
+Dataset Source: https://www.kaggle.com/datasets/mrsimple07/remote-work-productivity
 
-Dataset Modifications ("None" if unchanged): // FINISH ME
+Dataset Modifications ("None" if unchanged): None
 
-Result Analysis: // FINISH ME
+Result Analysis: Overall, the runtimes for already sorted, suffled and reversed were very similar for the insert, search, and remove operations.
+In one graph insertion had had the largest runtime but in the other two graphs all of the runtimes and lines were about the same.
+In the reversed and shuffled graphs insert, search, and remove all had runtimes of O(N). The graphs should have had an O(1) runtime but my graphs showed fluctuations
+and there could have been a computer error so they are not completley correct. My n is not very large so I might have seen an O(1) runtime with a larger n. 
+ 
 
 ## Submission:
 
